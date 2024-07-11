@@ -1,0 +1,82 @@
+.container{
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    width: 800px;
+    height: 500px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #08382e;
+}
+h3 {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #08382e;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: lighter;
+    margin-left: 510px;
+    color: #fff;
+    margin-top: 20px;
+    background-color: #03795b;
+    width: 30%;
+}
+p {
+    padding-left: 50px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #08382e;
+    letter-spacing: 2;
+
+}
+table {
+    border: 1px #030303 solid;
+    font-size: 13px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 25%);
+    width: 700px;
+    align-self: center;
+    z-index: -1000;
+    margin-left: 50px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+th {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background: #03795b;
+    border-right: 1px solid #e9e5e09c;
+    padding: 1em;
+    vertical-align: middle;
+    font-size: 14px;
+    }
+
+td {
+    padding: 5px;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(22, 22, 22, 0.74);
+    background: #fff;
+    border-right: 1px solid #b1a3959c;
+}
+
+
+

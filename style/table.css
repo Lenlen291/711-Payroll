@@ -1,0 +1,40 @@
+.form {
+    border: 1px #030303 solid;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 25%);
+    width: 1150px;
+    margin-top: 45px;
+    position: absolute;
+    left: 20px;
+    z-index: -1000;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.form th {
+font-weight: bold;
+color: #fff;
+text-align: center;
+background: #03795b;
+border-right: 1px solid #e9e5e09c;
+padding: 1em;
+vertical-align: middle;
+font-size: 14px;
+}
+
+.form td {
+padding: 5px;
+text-align: center;
+vertical-align: middle;
+border-bottom: 1px solid rgba(22, 22, 22, 0.74);
+background: #fff;
+border-right: 1px solid #b1a3959c;
+}
+
+
+.form-horizontal {
+    position: absolute;
+    width: 300px;
+    left: 250px;
+}

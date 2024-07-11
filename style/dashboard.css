@@ -1,0 +1,38 @@
+.value {
+    font-size: 40px;
+    font-weight: bold;
+    color: #036952;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2% 15%;
+}
+
+.boxes {
+    width: 250px;
+    height: 170px;
+    border-radius: 5px;
+    z-index: -1000;
+    margin: 20px;
+    border: 2px solid #2e8873cb;
+    padding: 2%;
+    background-color: #fdfdfdcb;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    color: #036952;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+hr {
+    border-top: 1px solid #177962;
+}
